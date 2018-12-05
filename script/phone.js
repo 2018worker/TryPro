@@ -22,6 +22,7 @@ switch(document.title){
 
 function innerBys(){
 		for(let i=0;i<5;i++){
+		imgs[i].style.pointer-events:auto;
 		imgs[i].onclick=function(){
 			pshow[0].innerHTML="<div><img src=\"image\/bys\/b_view0"
 							 	+(i+1)+".jpg\" alt=\""+iname[i]+
