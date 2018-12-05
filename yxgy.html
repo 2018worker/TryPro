@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>view02</title>
+		<link rel="stylesheet" href="css/nav_w.css" media="screen and (min-width:640px)">
+		<link rel="stylesheet" href="css/view_w.css" media="screen and (min-width:640px)">
+		<link rel="stylesheet" href="css/nav_p.css" media="screen and (max-width:640px)">
+		<link rel="stylesheet" href="css/view_p.css" media="screen and (max-width:640px)">
+	</head>
+	<body>
+		<div class="titbg">
+			<ul class="nav">
+				<a href="bys.html"><li class="pid01">白云山</li></a>
+				<a href=""><li class="pid02">越秀公园</li></a>
+				<a href="yzj.html"><li class="pid03">游珠江</li></a>
+				<a onclick=alert("敬请期待....")><li class="pid04">敬请期待</li></a>
+			</ul>
+		</div>
+		<div class="tab">
+			<div class="tb01">
+				<p class="menup">简介</p>
+				<div class="jianjie">
+					<img src="image/yxgy/jianjie02.jpg" id="change" width="600px" height="350px">
+					<p id="txt">
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp越秀公园是广州最早的公园之一，也是广州规模最大的综合性公园。民国时期，孙中山先生提出要把越秀山建成一座大公园。广州解放后这一构想得到了实现。如今，越秀公园自然风景优美，富有亚热带地区的景物特点，而且还保存了各种历史文物和遗迹。新建的园道还连接着各个景点。每年的春、秋两季公园会举办的花卉展，历年都有众多游客前来观光。
+						<br/>
+					</p>
+				</div>
+			</div>
+			<div class="tb02">
+				<p class="menup">位置</p>
+				<img src="image/yxgy/map2.gif" width="300px"	height="350px">
+				<p class="site"><a href="https://j.map.baidu.com/J1YWN" target="_brank">广东省广州市越秀区解放北路960号</a></p>
+			</div>
+			
+			<div class="tb03">
+				<p class="menup">景点</p>
+				<div id="lclick"><img src="image/lclick.png" alt=""></div>
+				<div class="show">
+					<div class="hdn">
+						<div class="imgs"><img src="image/yxgy/y_view01.jpg" alt="五羊雕像" width="800px" height="500px"></div>
+						<div class="imgs"><img src="image/yxgy/y_view02.jpg" alt="镇海楼" width="800px" height="500px"></div>
+						<div class="imgs"><img src="image/yxgy/y_view03.jpg" alt="中山纪念碑" width="800px" height="500px"></div>
+						<div class="imgs"><img src="image/yxgy/y_view04.jpg" alt="广州美术馆" width="800px" height="500px"></div>
+						<div class="imgs"><img src="image/yxgy/y_view05.jpg" alt="海员亭" width="800px" height="500px"></div>
+						<div class="imgs"><img src="image/yxgy/y_view01.jpg" alt="五羊雕像" width="800px" height="500px"></div>
+					</div>
+				</div>
+				<div id="rclick"><img src="image/rclick.png" alt=""></div>
+			</div>
+			<div class="tb04">
+				<p class="menup">景点</p>
+				<div class="pshow">
+					<div><img src="image/yxgy/y_view01.jpg" alt="五羊雕像" width="400px" height="250px"></div>
+				</div>
+				<ul>
+					<li class="imgshow">1</li>
+					<li class="imgshow">2</li>
+					<li class="imgshow">3</li>
+					<li class="imgshow">4</li>
+					<li class="imgshow">5</li>
+				</ul>
+				<p class="namep">五羊雕像</p>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+		if (screen.width<640){
+			console.log("切换到电脑页面时，请刷新");
+			document.write("<script src=\"script\/phone.js\"><\/script>");
+		}
+			
+		else{
+			console.log("切换到手机页面时，请刷新");
+			document.write("<script src=\"script\/ani.js\"><\/script>");
+		}
+	</script>
+</html>

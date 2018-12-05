@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>view01</title>
+		<link rel="stylesheet" href="css/nav_w.css" media="screen and (min-width:640px)">
+		<link rel="stylesheet" href="css/view_w.css" media="screen and (min-width:640px)">
+		<link rel="stylesheet" href="css/nav_p.css" media="screen and (max-width:640px)">
+		<link rel="stylesheet" href="css/view_p.css" media="screen and (max-width:640px)">
+	</head>
+	<body>
+		<div class="titbg">
+			<ul class="nav">
+				<a href=""><li class="pid01">白云山</li></a>
+				<a href="yxgy.html"><li class="pid02">越秀公园</li></a>
+				<a href="yzj.html"><li class="pid03">游珠江</li></a>
+				<a onclick=alert("敬请期待....")><li class="pid04">敬请期待</li></a>
+			</ul>
+		</div>
+		<div class="tab">
+			<div class="tb01">
+				<p class="menup">简介</p>
+				<div class="jianjie">
+					<img src="image/bys/jianjie01.jpg" id="change" width="600px" height="350px">
+					<p id="txt">
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp白云山，位于广东省广州市白云区，为南粤名山之一，自古就有“羊城第一秀”之称。山体相当宽阔，由30多座山峰组成，为广东最高峰九连山的支脉。面积20.98平方公里，主峰摩星岭高382米。<br/>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp白云山是广州市风景区行业的第一家国家AAAAA级旅游景区，也是广州市唯一同时拥有全国文明风景旅游区、国家AAAAA级旅游景区两项荣誉的景区。
+					</p>
+				</div>
+			</div>
+			<div class="tb02">
+				<p class="menup">位置</p>
+				<img src="image/bys/map1.gif" width="300px"	height="350px">
+				<p class="site"><a href="https://j.map.baidu.com/uMkEO" target="_brank">广东省广州市白云区广园中路801号</a></p>
+			</div>
+			
+			<div class="tb03">
+				<p class="menup">景点</p>
+				<div id="lclick"><img src="image/lclick.png" alt=""></div>
+				<div class="show">
+					<div class="hdn">
+						<div class="imgs"><img src="image/bys/b_view01.jpg" alt="白云仙馆" width="800px" height="500px"></div>
+						<div class="imgs"><img src="image/bys/b_view02.jpg" alt="笨猪跳" width="800px" height="500px"></div>
+						<div class="imgs"><img src="image/bys/b_view03.jpg" alt="鸿鹄楼" width="800px" height="500px"></div>
+						<div class="imgs"><img src="image/bys/b_view04.jpg" alt="麓湖公园" width="800px" height="500px"></div>
+						<div class="imgs"><img src="image/bys/b_view05.jpg" alt="聚芳园" width="800px" height="500px"></div>
+						<div class="imgs"><img src="image/bys/b_view01.jpg" alt="白云仙馆" width="800px" height="500px"></div>
+					</div>
+				</div>
+				<div id="rclick"><img src="image/rclick.png" alt=""></div>
+			</div>
+			<div class="tb04">
+				<p class="menup">景点</p>
+				<div class="pshow">
+					<div><img src="image/bys/b_view01.jpg" alt="白云仙馆" width="400px" height="250px"></div>
+				</div>
+				<ul>
+					<li class="imgshow">1</li>
+					<li class="imgshow">2</li>
+					<li class="imgshow">3</li>
+					<li class="imgshow">4</li>
+					<li class="imgshow">5</li>
+				</ul>
+				<p class="namep">白云仙馆</p>
+			</div>
+		</div>
+	</body>
+	<script>
+		if (screen.width<640){
+			console.log("切换到电脑页面时，请刷新");
+			document.write("<script src=\"script\/phone.js\"><\/script>");
+		}
+			
+		else{
+			console.log("切换到手机页面时，请刷新");
+			document.write("<script src=\"script\/ani.js\"><\/script>");
+		}
+	</script>
+</html>
