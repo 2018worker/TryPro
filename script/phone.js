@@ -21,6 +21,7 @@ switch(document.title){
 }
 
 function innerBys(){
+		console.log("可以");
 		alert("可以");
 		for(let i=0;i<5;i++){
 		imgs[i].onclick=function(){
