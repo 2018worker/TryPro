@@ -1,0 +1,97 @@
+.tab{
+	width: 400px;
+	height: 800px;
+	margin: 0px auto;
+}
+.menup{
+	width: 200px;
+	height:30px;
+	font-family: 微软雅黑;
+	font-weight: bold;
+	font-size:18px;
+	padding-top:30px; 
+}
+.tb01{
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+.jianjie{
+	width: 400px;
+	height: 240px;
+	position: relative;
+	background: #F0F0F0;
+}
+.jianjie>img{
+	position: absolute;
+	opacity:0.3;
+}
+.jianjie>p{
+	position: absolute;
+	width: 320px;
+	height: 230px;
+	padding-left: 40px;
+	padding-right: 40px;
+	top:10px;
+}
+
+.tb02{
+	position: relative;
+	width: 400px;
+	height: 120px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+.tb02>img{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	opacity: 0;
+}
+.site>a{
+	color:#000;
+}
+
+.tb03{
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
+
+.tb04{
+	position: relative;
+	width: 400px;
+	height: 350px;
+	margin: 0px auto;
+}
+.pshow{
+	position: absolute;
+	width: 400px;
+	height: 250px;
+	background: #F0F0F0;
+}
+.tb04>ul{
+	position: absolute;
+	width: 250px;
+	height: 30px;
+	bottom: 0px;
+}
+.tb04 li{
+	width: 30px;
+	height: 30px;
+	float:left;
+	text-align: center;
+	font-size:10px;
+	background: #000;
+	color: #FFF;
+	line-height: 30px;
+	margin-right: 10px; 
+}
+.namep{
+	width:100px;
+	height: 30px; 
+	position: absolute;
+	bottom: 0px;
+	right:0px;
+}

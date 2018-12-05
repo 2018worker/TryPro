@@ -1,0 +1,49 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration:none;
+}
+.fm{
+	position: relative;
+	width: 400px;
+	height: 600px;
+	background: url("../image/fm.jpg") no-repeat center;
+	margin: 50px auto;
+}
+.fm>p{
+	text-align: center;
+	font-size:50px;
+	font-family: "DFKai-SB";
+	font-weight: bolder;
+}
+.nav{
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	background: #000; 
+	bottom: 0px;
+}
+.nav>p{
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	top: 22px;
+	text-align: center;
+	color: #FFF;
+}
+#bys{
+	left:10px;
+}
+#zj{
+	left:110px;
+}
+#yxgy{
+	left:210px;
+}
+#qd{
+	left:310px;
+}
+#qd>p{
+	top: 18px;
+}
