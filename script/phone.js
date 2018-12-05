@@ -22,18 +22,19 @@ switch(document.title){
 
 function innerBys(){
 		for(let i=0;i<5;i++){
-		imgs[i].onclick=function(){
-			pshow[0].innerHTML="<div><img src=\"image\/bys\/b_view0"
-							 	+(i+1)+".jpg\" alt=\""+iname[i]+
-							 	"\" width=\"400px\" height=\"250px\"><\/div>";
-			namep.innerHTML=iname[i];
-		}
 		imgs[i].ontouchstart=function(){
 			pshow[0].innerHTML="<div><img src=\"image\/bys\/b_view0"
 							 	+(i+1)+".jpg\" alt=\""+iname[i]+
 							 	"\" width=\"400px\" height=\"250px\"><\/div>";
 			namep.innerHTML=iname[i];
 		}
+		imgs[i].onclick=function(){
+			pshow[0].innerHTML="<div><img src=\"image\/bys\/b_view0"
+							 	+(i+1)+".jpg\" alt=\""+iname[i]+
+							 	"\" width=\"400px\" height=\"250px\"><\/div>";
+			namep.innerHTML=iname[i];
+		}
+		
 	}
 }
 function innerYxgy(){
