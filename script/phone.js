@@ -18,6 +18,9 @@ switch(document.title){
 		//console.log(3);
 		innerYzj();
 		break;
+	default:
+		alert("敬请期待...");
+		break;
 }
 
 function innerBys(){
