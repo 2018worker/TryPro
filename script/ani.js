@@ -41,7 +41,7 @@ function ani(){
 }
 
 rclick.onclick=function(){
-	if(num>=0&&num<=15){
+	if(num>=0&&num<=13){
 		num+=3;
 		photos[0].style.left=-800*(Math.floor(num/3))+"px";
 		num--;
